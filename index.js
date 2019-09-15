@@ -22,10 +22,8 @@ var UserSchema = {
             "maxLength": 180,
         },
         "telephoneNumber": {
-            "type": "number",
-            "pattern": "(09|01[2|6|8|9])+([0-9]{8})",
-            "minimum": 9,
-            "maximum": 11,
+            "type": "string",
+            "pattern": "(09|01[2|6|8|9])+([0-9]{8})"
         },
         "GPA": {
             "type": "number",
