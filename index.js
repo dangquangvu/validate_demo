@@ -1,6 +1,7 @@
 var Validator = require('jsonschema').Validator;
 var v = new Validator();
 
+//"$schmea": "http://json-schema.org/draft-04/schema#",
 var UserSchema = {
     "id": "/SimpleAddress",
     "title": "User",
